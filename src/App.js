@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import celestial from '../src/assets/bg.png';
 import './App.css';
+import Header from './components/header/Header';
+import Landing from './components/content/Landing';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='flex-column'>
+         <Header/>
+         <Landing/>
+         </div>
+      <img src={celestial} alt="bg-image" style={{ width: '100%',height:'100%' , margin:'0px'}} ></img>
+   
     </div>
   );
 }
