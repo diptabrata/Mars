@@ -1,0 +1,19 @@
+.two {
+	position: absolute;
+	margin-top: 140vh;
+	margin-left: 7vw;
+}
+.img {
+	position: absolute;
+	margin-top: 60vh;
+	margin-left: -50vh;
+}
+.img-text {
+	position: absolute;
+	margin-top: 150vh;
+	margin-left: -145vh;
+}
+.carousal {
+	position: absolute;
+	margin-top: 90vh;
+}

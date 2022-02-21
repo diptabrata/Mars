@@ -2,6 +2,7 @@ import celestial from '../src/assets/bg.png';
 import './App.css';
 import Header from './components/header/Header';
 import Landing from './components/content/Landing';
+import Two from './components/two/Two'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className='flex-column'>
          <Header/>
          <Landing/>
+         <Two/>
          </div>
       <img src={celestial} alt="bg-image" style={{ width: '100%',height:'100%' , margin:'0px'}} ></img>
    
