@@ -1,0 +1,7 @@
+.Footer {
+	position: absolute;
+	z-index: 9;
+	margin-top: 900vh;
+	display: flex;
+	flex-direction: column;
+}
