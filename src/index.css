@@ -6,6 +6,7 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	top: 0;
 	background-color: #181818;
+	overflow-x: hidden;
 }
 a {
 	text-decoration: none;

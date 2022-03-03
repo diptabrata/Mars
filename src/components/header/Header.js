@@ -7,11 +7,11 @@ export default function Header() {
           <div className="flex-row">
         <a href="#"><img src={brand} alt="brand-image"  ></img></a>
         <nav className='nav'>
-        <a href="#">About Mars</a> 
-        <a href="#">Process</a> 
-        <a href="#">Buy Tickets</a> 
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
+        <a href="#" className='nav-text'>About Mars</a> 
+        <a href="#" className='nav-text'>Process</a> 
+        <a href="#" className='nav-text'>Buy Tickets</a> 
+        <a href="#" className='nav-text'>Blog</a>
+        <a href="#" className='nav-text'>Contact</a>
         </nav>
         </div>
       </div>

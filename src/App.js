@@ -16,7 +16,7 @@ function App() {
          <Gallery/>
          <Footer/>
          </div>
-      <img src={celestial} alt="bg-image" style={{ width: '100%',height:'100%' , margin:'0px'}} ></img>
+      <img src={celestial} alt="bg-image" style={{ width: '100%',height:'100vh' , margin:'0px'}} ></img>
    
     </div>
   );
